@@ -10,19 +10,20 @@
 		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	</head>
 	<body>
-		
+		<!--Comment by: Sergio Pardo. Revisar la funcionalidad de la página en diferentes navegadores, el uso de parallax
+			al parecer no esta soportado por algunos de ellos, por lo cual sería bueno mirar alguna opción de 
+			retrocompatibilidad -->
 		<div class="wrapper">
 			<!--Section 0 - Index -->
 			<!--efecto parallax para las imagenes de fondo-->
 			<div class="parallax-window" data-parallax="scroll" data-image-src="/proyecto/img/fondo.jpg">
 				<header>
 					<nav>
-						<!--Comment by: Sergio Pardo. Sería bueno modificar un poco el color mediante css, puesto que no se ve el heading en la página-->
-						<div style="color:#000000;" class="nombre">
+						<div class="nombre">
 							F. Andrés <br>
 							  Vera
 						</div>
-						<div style="color:#000000;" class="menu">
+						<div class="menu">
 							<ul>
 								<!-- link a pagina de perfil -->
 								<li><a href="/perfil.html">PERFIL</a></li>
@@ -57,14 +58,14 @@
 		<div class="contentslide">
 			 <a href="#abinbev"><img class="Slides" src="proyecto/img/abinbev.jpg" alt="Ab inBev"></a>
 			 <a href="#Primid"><img class="Slides" src="proyecto/img/primid.jpg" alt="Primid"></a>
-		     <a href="#Oilcol"><img class="Slides" src="proyecto/img/oilcol.jpg" alt="OilCol"></a>
+			 <!--Comment by: Sergio Pardo. Pequeño cambio en identación-->
+		    	 <a href="#Oilcol"><img class="Slides" src="proyecto/img/oilcol.jpg" alt="OilCol"></a>
 			 <a href="#Alpesoft"><img class="Slides" src="proyecto/img/alpesoft.jpg" alt="Alpesoft"></a>
 
 			 <button class="bttn bttnblack bttnleft" onclick="plusDivs(-1)">&#10094;</button>
 			 <button class="bttn bttnblack bttnright" onclick="plusDivs(1)">&#10095;</button>
 		</div>
 
-		<!--Comment by: Sergio Pardo. Consideración de estilo: Creería que sería mejor si los textos se van mostrando a medida que cambian las imagenes, a primera vista no me doy cuenta de la descripción de los proyectos-->
 <!-- seccion de abinbev -->
 		<a name="abinbev"></a><div class="abinbev">
 				<div class="parallax-window" data-parallax="scroll" data-image-src="/proyecto/img/abinbevuno.jpg">
