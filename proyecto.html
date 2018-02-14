@@ -1,37 +1,69 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-widht, initial-scale=1.0">
 		<title>F. Andres Vera</title>
-		<meta charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="proyecto/css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	</head>
 	<body>
-		<!--Section 0 - Index -->
-		<div id="index">
-			<div id="nombre">
-				<h1 id="title">F. Andrés Vera</h1>
-			</div>
-
-			<div id="logo">
-				<img class="logopng" src="proyecto/img/logo.png">
-			</div>		
-		</div>
 		
+		<div class="wrapper">
+			<!--Section 0 - Index -->
+			<div class="parallax-window" data-parallax="scroll" data-image-src="/proyecto/img/fondo.jpg">
+				<header>
+					<nav>
+						<div class="nombre">
+							F. Andrés <br>
+							  Vera
+						</div>
+						<div class="menu">
+							<ul>
+								<li><a href="/perfil.html">PERFIL</a></li>
+							</ul>
+						</div>		
+					</nav>
+					<svg class="logosvg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 406 345" style="enable-background:new 0 0 406 345;" xml:space="preserve" alt="logo">
+						<style type="text/css">
+							.st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+						</style>
+						<g>
+							<path class="st0" d="M157.6,108.4h40.5l-32.5-89.9h-40.5L39.6,252.8c0,0-4.3,17.1-25.8,15.8v11.8h98.5v-11.8
+								c0,0-30.9-1.1-25.5-34.4l8.7-23.7h85.1l-15-41.3h-54.7l34.3-95L157.6,108.4z"/>
+							<path class="st0" d="M161.2,118.3h41.9l57,159.3l57.5-156.1c0,0,12.3-35.4-24.6-38.2V71.5h98.5v11.8c0,0-21.8-4.2-31.8,35
+								l-79.6,214.6h-40.7L161.2,118.3z"/>
+						</g>
 
-		<!--Section 1 - Projects -->
-		<div id="projects">
-			<div id="primid">
+					</svg>
+				</header>
 			</div>
-			<div id="abinbev">
-				<img class="abinbevjpg" src="proyecto/img/abinbev.jpg">
-			</div>
-			<div id="alpesoft">
-			</div>
-			<div id="oilcol">
-			</div>
-			<div id="others">
+			
+			<!--Section 1 - Projects -->
+			<div class="content">
+				<h1>Proyectos</h1>
 			</div>
 		</div>
+
+		<div class="contentslide">
+			 <img class="mySlides" src="proyecto/img/abinbev.jpg" alt="Ab inBev">
+			 <img class="mySlides" src="proyecto/img/primid.jpg" alt="Primid">
+		     <img class="mySlides" src="proyecto/img/oilcol.jpg" alt="OilCol">
+			 <img class="mySlides" src="proyecto/img/alpesoft.jpg" alt="Alpesoft">
+
+			 <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			 <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+
+		<div class="abinbev">
+				<p>lorem </p>
+		</div>
+
+		<script src="proyecto/js/funciones.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="proyecto/js/parallax.js"></script>
 
 	</body>
 </html>
