@@ -6,12 +6,12 @@
 		<title>F. Andres Vera</title>
 		<link rel="stylesheet" type="text/css" href="proyecto/css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	</head>
 	<body>
 		
 		<div class="wrapper">
 			<!--Section 0 - Index -->
+			<!--efecto parallax para las imagenes de fondo-->
 			<div class="parallax-window" data-parallax="scroll" data-image-src="/proyecto/img/fondo.jpg">
 				<header>
 					<nav>
@@ -21,10 +21,12 @@
 						</div>
 						<div class="menu">
 							<ul>
+								<!-- link a pagina de perfil -->
 								<li><a href="/perfil.html">PERFIL</a></li>
 							</ul>
 						</div>		
 					</nav>
+					<!-- codigo svg exportado desde Illustrator, como medio grafico para animacion del logotipo "AV (Siglas de Andrés Vera)" -->
 					<svg class="logosvg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 406 345" style="enable-background:new 0 0 406 345;" xml:space="preserve" alt="logo">
 						<style type="text/css">
 							.st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
@@ -37,6 +39,7 @@
 						</g>
 
 					</svg>
+					<!-- fin svg -->
 				</header>
 			</div>
 			
@@ -46,19 +49,73 @@
 			</div>
 		</div>
 
+		<!--slide con imagenes que redireccionan a la seccion correspondiente en la pagina-->
+
 		<div class="contentslide">
-			 <img class="mySlides" src="proyecto/img/abinbev.jpg" alt="Ab inBev">
-			 <img class="mySlides" src="proyecto/img/primid.jpg" alt="Primid">
-		     <img class="mySlides" src="proyecto/img/oilcol.jpg" alt="OilCol">
-			 <img class="mySlides" src="proyecto/img/alpesoft.jpg" alt="Alpesoft">
+			 <a href="#abinbev"><img class="Slides" src="proyecto/img/abinbev.jpg" alt="Ab inBev"></a>
+			 <a href="#Primid"><img class="Slides" src="proyecto/img/primid.jpg" alt="Primid"></a>
+		     <a href="#Oilcol"><img class="Slides" src="proyecto/img/oilcol.jpg" alt="OilCol"></a>
+			 <a href="#Alpesoft"><img class="Slides" src="proyecto/img/alpesoft.jpg" alt="Alpesoft"></a>
 
-			 <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-			 <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+			 <button class="bttn bttnblack bttnleft" onclick="plusDivs(-1)">&#10094;</button>
+			 <button class="bttn bttnblack bttnright" onclick="plusDivs(1)">&#10095;</button>
 		</div>
 
-		<div class="abinbev">
-				<p>lorem </p>
+
+<!-- seccion de abinbev -->
+		<a name="abinbev"></a><div class="abinbev">
+				<div class="parallax-window" data-parallax="scroll" data-image-src="/proyecto/img/abinbevuno.jpg">
+					<div class="transparent">
+					</div>
+				
+				</div>
+
+				<p>Ab inBev es una compañia multinacional en Colombia, dueña de la cervecera mas grande del pais Bavaria, y actualmente una de las compañias mas fuertes en el sector cervecero a nivel mundial. Existen areas de dicha empresa que mantienen cierto grado de confidencialidad. Por esa razon, se creo un portal interactivo que funcionara como repositorio de datos de alta importancia y de clasificacion confidencial para personal dentro y fuera de la empresa. </p>
+
 		</div>
+
+<!-- seccion de primid -->
+		<a name="Primid"></a><div class="Primid">
+				<div class="parallax-window" data-parallax="scroll" data-image-src="/proyecto/img/primiduno.jpg">
+					<div class="transparent">
+					</div>
+				
+				</div>
+
+				<p>Primid fue un proyecto realizado en grupo con 4 compañeros. La mayoria de ellos Ingenieros de Sistemas, pero algunos tambien con conocimientos en Diseño Industrial. Se creo una aplicacion web con el fin de poder organizar itinerarios para viajeros en diferentes lugares del mundo. Tal aplicacion contaba con un sistema de back-end, que lograba la autenticacion ante el portal.</p>
+
+		</div>
+
+<!-- seccion de oilcol -->
+		<a name="Oilcol"></a><div class="Oilcol">
+				<div class="parallax-window" data-parallax="scroll" data-image-src="/proyecto/img/oilcoluno.jpg">
+					<div class="transparent">
+					</div>
+				
+				</div>
+
+				<p>OilCol es una implementacion de IoT "Internet of Things" que fue creado con un grupo de trabajo, para una empresa creada por el departamento de Ingenieria de Sistemas de la Universidad de los Andes, con el fin de ser material de caso de estudio e implementacion basica de sensores que midieran estadisticas importantes.</p>
+
+		</div>
+
+<!-- seccion de alpesoft -->
+		<a name="Alpesoft"></a><div class="Alpesoft">
+				<div class="parallax-window" data-parallax="scroll" data-image-src="/proyecto/img/alpesoftuno.jpg">
+					<div class="transparent">
+					</div>
+				
+				</div>
+
+				<p>Alpesoft es una empresa creada por el departamento de Ingenieria de Sistemas de la Universidad de los Andes, la cual fue caso de estudio de negocio y a la que se le implemento mediante la solucion de una nueva idea y descripcion de negocio, un sistema informatico que ayudara a generar ganancias a nivel gerencial.</p>
+
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<!--implementacion de scripts locales y de js -->
 
 		<script src="proyecto/js/funciones.js"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

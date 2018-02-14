@@ -1,20 +1,22 @@
 "use strict";
-var slideIndex = 1;
-showDivs(slideIndex);
+/*codigo en js para el slide de imagenes principal.*/
+var slideFotos = 1;
+
+mostrarD(slideFotos);
 
 function plusDivs(n) {
   'use strict';
-  showDivs(slideIndex += n);
+  mostrarD(slideFotos += n);
 }
 
-function showDivs(n) {
+function mostrarD(n) {
   'use strict';
   var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
+  var x = document.getElementsByClassName("Slides");
+  if (n > x.length) {slideFotos = 1}    
+  if (n < 1) {slideFotos = x.length}
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideFotos-1].style.display = "block";  
 }

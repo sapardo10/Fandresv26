@@ -8,6 +8,8 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+/*Codigo CSS que permite la correcta ubicacion y animacion del logotipo */
+
 .logosvg{
   position: absolute;
   top: 45%;
@@ -23,6 +25,8 @@ path {
   opacity: 10;
   animation: animate 3s cubic-bezier(0,0.23,1,.1);
 }
+
+/*keyframe para la animacion del svg del logotipo*/
 
 @keyframes animate {
   0% {
@@ -48,6 +52,8 @@ path {
     stroke-dashoffset: 0;
   }
 }
+
+/*---*/
 
 header {
   width: 100%;
@@ -129,12 +135,56 @@ nav ul li a{
   position: relative;
 }
 
-.mySlides{
+.Slides{
   width: 100%;
   height: 400px;
 
 
 }
+
+.bttn{
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+
+.bttnblack{
+  color:#fff!important;
+  background-color:#000!important;
+
+}
+
+.bttnleft {
+  position:absolute;
+  top:50%;
+  left:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(-0%,-50%);
+}
+
+.bttnright {
+  position:absolute;
+  top:50%;
+  right:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(0%,-50%);
+}
+
+
 
 h1{
   margin: auto;
@@ -179,4 +229,119 @@ div h2{
   color: white;
 }
 
+.abinbev{
+  width: 100%
+  height: 100%;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+
+}
+
+.abinbev .transparent{
+  color: transparent;
+  width: 900px;
+  height: 900px;
+}
+
+.abinbev p{
+  margin: auto;
+  margin-top: 60px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  color: black;
+
+}
+
+.Primid{
+  width: 100%
+  height: 100%;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+
+}
+
+.Primid .transparent{
+  color: transparent;
+  width: 900px;
+  height: 900px;
+}
+
+.Primid p{
+  margin: auto;
+  margin-top: 60px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  color: black;
+
+}
+
+.Oilcol{
+  width: 100%
+  height: 100%;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+
+}
+
+.Oilcol .transparent{
+  color: transparent;
+  width: 900px;
+  height: 900px;
+}
+
+.Oilcol p{
+  margin: auto;
+  margin-top: 60px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  color: black;
+
+}
+
+.Alpesoft{
+  width: 100%
+  height: 100%;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+
+}
+
+.Alpesoft .transparent{
+  color: transparent;
+  width: 900px;
+  height: 900px;
+}
+
+.Alpesoft p{
+  margin: auto;
+  margin-top: 60px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  color: black;
+
+}
 
