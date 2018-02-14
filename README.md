@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## Bienvenido a mi portafolio
 
-You can use the [editor on GitHub](https://github.com/Fandresv26/WebProjectOne/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Mi nombre es Freddy Andrés Vera y la pagina que veran a continuacion es mi portafolio de proyectos y trabajos realizados durante la etapa universitaria.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Esta pagina web fue creada con el fin de dar a conocer por un medio interactivo y mediante ilustraciones dinamicas en el mismo, aquellos trabajos realizados individual y grupalmente que son fundamentales para la carrera de Ingenieria de Sistemas y que brindan cierto nivel de aporte para el avance de la ciencia y tecnologia.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Desarrollo
 
-```markdown
-Syntax highlighted code block
+El desarrollo de esta pagina web se hizo mediante HTML, CSS y JAVASCRIPT, en donde cada parte juega un papel fundamental para el correcto funcionamiento de las "animaciones" presentes. 
 
-# Header 1
-## Header 2
-### Header 3
+Por otra parte, la pagina trabaja bajo un sistema de grillas que reafirman el funcionamiento responsive de la misma. Para poder lograr esto y otras funcionalidades, se importaron scripts de "Bootstrap" y "JQuery".
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### En la pagina podremos encontrar:
 
-**Bold** and _Italic_ and `Code` text
+- Slider de imagenes.
+- Logotipo animado.
+- Barra de navegación estatica.
+- Imagenes bajo el efecto "Pallarax".
+- Pagina alternativa de "Perfil y contacto"
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Contacto
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Fandresv26/WebProjectOne/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Para informacion adicional, puede enviar un correo a la cuenta de "fa.vera10@uniandes.edu.co".
